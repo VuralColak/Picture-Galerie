@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #6F5E5C;
 }
 
 .bildbox {
@@ -50,6 +51,7 @@ h1 {
     /* position: fixed;
     width: 100%; */
     margin: 0;
+    padding: 30px;
     text-align: center;
     font-size: 60px;
     background-color: chocolate;
@@ -62,10 +64,11 @@ h1 {
     grid-auto-rows: 300px;
     grid-auto-flow: dense;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 15px;
     padding: 15px;
     background-color: #E4E3D3;
+    border-radius: 15px;
 
 }
 
@@ -84,7 +87,7 @@ h1 {
 }
 
 .bildbox:hover .icon {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 
